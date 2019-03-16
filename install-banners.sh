@@ -25,6 +25,7 @@ wget https://raw.githubusercontent.com/m99t/moTD-HM/master/issue.net
 wget https://raw.githubusercontent.com/m99t/moTD-HM/master/motd.sh
 
 # Install MOTD
+chmod -x /etc/update-motd.d/*
 chmod +x /tmp/banners/motd.sh
 rm -rf /etc/profile.d/motd.sh
 mv /tmp/banners/motd.sh /etc/profile.d/motd.sh

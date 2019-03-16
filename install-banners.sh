@@ -39,4 +39,4 @@ service sshd restart
 # Cleanup
 rm -rf /tmp/banners
 
-
+echo "Install complete!"
